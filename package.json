@@ -1,0 +1,36 @@
+{
+  "name": "slidev-addon-obs",
+  "version": "1.0.0",
+  "type": "module",
+  "keywords": [
+    "slidev-addon",
+    "slidev",
+    "obs",
+    "obs-websocket"
+  ],
+  "description": "Switch OBS scenes from Slidev slides via obs-websocket (v4 and v5)",
+  "license": "MIT",
+  "author": "Denis Sowa",
+  "peerDependencies": {
+    "vue": "^3.5.0"
+  },
+  "dependencies": {
+    "@slidev/client": "^52.14.2"
+  },
+  "files": [
+    "global-top.vue",
+    "obs.ts"
+  ],
+  "engines": {
+    "node": ">=18",
+    "slidev": ">=0.52.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/L-C-P/slidev-addon-obs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/L-C-P/slidev-addon-obs/issues"
+  },
+  "homepage": "https://github.com/L-C-P/slidev-addon-obs#readme"
+}
